@@ -1,8 +1,38 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+      {
+            "text": "This is your first interactive message",
+            "attachments": [
+                {
+                    "text": "Building buttons is easy right?",
+                    "fallback": "Shame... buttons aren't supported in this land",
+                    "callback_id": "button_tutorial",
+                    "color": "#3AA3E3",
+                    "attachment_type": "default",
+                    "actions": [
+                        {
+                            "name": "yes",
+                            "text": "yes",
+                            "type": "button",
+                            "value": "yes"
+                        },
+                        {
+                            "name": "no",
+                            "text": "no",
+                            "type": "button",
+                            "value": "no"
+                        },
+                        {
+                            "name": "maybe",
+                            "text": "maybe",
+                            "type": "button",
+                            "value": "maybe",
+                            "style": "danger"
+                        }
+                    ]
+                }
+            ]
+        }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
