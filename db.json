@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "get": [
       {
             "text": "This is your first interactive message",
             "attachments": [
