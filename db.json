@@ -14,20 +14,20 @@
                             "name": "yes",
                             "text": "yes",
                             "type": "button",
-                            "value": "yes"
+                            "value": "Hola"
                         },
                         {
                             "name": "no",
                             "text": "no",
                             "type": "button",
-                            "value": "no"
+                            "value": "New"
                         },
                         {
                             "name": "maybe",
                             "text": "maybe",
                             "type": "button",
                             "value": "maybe",
-                            "style": "danger"
+                            "style": "success"
                         }
                     ]
                 }
