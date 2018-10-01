@@ -1,37 +1,35 @@
 {
-  "get": [
-      {
-            "text": "This is your first interactive message",
-            "attachments": [
-                {
-                    "text": "Building buttons is easy right?",
-                    "fallback": "Shame... buttons aren't supported in this land",
-                    "callback_id": "button_tutorial",
-                    "color": "#3AA3E3",
-                    "attachment_type": "default",
-                    "actions": [
-                        {
-                            "name": "yes",
-                            "text": "yes",
-                            "type": "button",
-                            "value": "Hola"
-                        },
-                        {
-                            "name": "no",
-                            "text": "no",
-                            "type": "button",
-                            "value": "New"
-                        },
-                        {
-                            "name": "maybe",
-                            "text": "maybe",
-                            "type": "button",
-                            "value": "maybe",
-                            "style": "success"
-                        }
-                    ]
-                }
-            ]
+  "get": {
+          "text": "This is your first interactive message",
+          "attachments": [
+              {
+                  "text": "Building buttons is easy right?",
+                  "fallback": "Shame... buttons aren't supported in this land",
+                  "callback_id": "button_tutorial",
+                  "color": "#3AA3E3",
+                  "attachment_type": "default",
+                  "actions": [
+                      {
+                          "name": "yes",
+                          "text": "yes",
+                          "type": "button",
+                          "value": "Hola"
+                      },
+                      {
+                          "name": "no",
+                          "text": "no",
+                          "type": "button",
+                          "value": "New"
+                      },
+                      {
+                          "name": "maybe",
+                          "text": "maybe",
+                          "type": "button",
+                          "value": "maybe",
+                          "style": "success"
+                      }
+                  ]
+              }
         }
   ],
   "comments": [
